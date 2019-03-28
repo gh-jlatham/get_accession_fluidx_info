@@ -33,31 +33,27 @@ ${INSTALL_DIR}/miniconda3/bin/conda env create -f ~/src/get_accession_fluidx_inf
 ```bash
 source ~/miniconda3/bin/activate py3
 ```
-You will know that your virtual env is active if you see "(py#)" of your line at the beginning
+You will know that your virtual env is active if you see "(py3)" of your line at the beginning
 
 4. Connect to "scratch" 
 
-5. In terminal, set "username" to your username.  For example:
-```bash
-username=lspurka
-```
-
-6. Make sure you export the spreadsheet as CSV in Excel!  See 
+5. Make sure you export the spreadsheet as CSV in Excel!  See 
 
 <b>If you're starting with "Accession IDs":</b>
-* Make sure column name is "
+* Make sure column name is "accession_number"
 * Save csv to your <b>Desktop</b> named <b>cfDNA_retain_request_input.csv</b>
+```bash
+python ~/src/get_accession_fluidx_info/cfDNA_retain_accession.py -u $USER
+```
 
 OR
 
 <b>If you're starting with "Fluid-X Tube ID":</b>
 * Make sure column name is "Tube_ID"
 * Save csv to your <b>Desktop</b> named <b>fluidx_tube_input.csv</b>
-
-
-6. Change "username=" set to your username.  See below for example:
-username=lspurka    # set variable to your username (NO SPACES!)
-python ~/src/get_accession_fluidx_info/cfDNA_retain_fluidxTube.py -u $username  # run script
+```bash
+python ~/src/get_accession_fluidx_info/cfDNA_retain_accession.py -u $USER
+```
 
 
 
