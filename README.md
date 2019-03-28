@@ -30,7 +30,7 @@ fi
 ${INSTALL_DIR}/miniconda3/bin/conda env create -f ~/src/get_accession_fluidx_info/py3.yaml
 ```
 
-3. activate python3 virtual env:
+3. Activate python3 virtual env:
 ```bash
 source ~/miniconda3/bin/activate py3
 ```
