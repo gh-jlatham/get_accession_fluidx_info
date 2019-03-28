@@ -1,0 +1,56 @@
+name: py3
+
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+
+dependencies:
+  #core python packages
+  - python=3.6
+  - pymc=2.3.6
+  - numpy=1.11.3
+  - pandas=0.23.1
+  - scipy=1.1.0
+  
+  #Jupyter and its ilk
+  - ipython=6.4.0
+  - jupyter=1.0.0
+  - jupyterlab=0.35.3
+  - nodejs=10.8.0
+
+  #stats/modeling
+  - statsmodels=0.9.0
+  - scikit-learn=0.19.1
+
+  #plotting/visualization
+  - matplotlib=2.2.2
+  - seaborn=0.8.1
+
+  #documentation/code review
+  - sphinx=1.7.5
+  - sphinx_rtd_theme=0.4.0
+  - pyflakes=2.0.0
+  - pylint=1.9.2
+
+  #Googledocs API
+  - google-api-python-client=1.6.7
+
+  #genomics/ngs
+  - pysam=0.14.1 #Note that pysam and samtools must be pinned to compatible versions.
+  - pybedtools=0.7.10 #BEDtool code mostly for BIP compatibility
+
+  #Misc
+  - python-levenshtein=0.12.0  #fast levenshtein/hamming dist
+  - pyyaml=3.12                #support for yaml files
+  - xlrd=1.1.0                 #support for excel files
+  - natsort=5.3.2              #fast natural sorting
+  - psycopg2=2.7.4             #PostGres SQL access
+  - google-api-python-client=1.6.7 #Googledocs API
+
+  #Non-python software
+  - bedtools=2.26.0
+  - samtools=1.7
+  - bwa=0.7.15
+  - coreutils=8.25      #Upgraded coreutils with natural sort
+  - tabview=1.4.2       #Visualize tab-delimited files in bash
