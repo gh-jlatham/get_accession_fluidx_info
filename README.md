@@ -37,7 +37,7 @@ You will know that your virtual env is active if you see "(py3)" of your line at
 
 4. Connect to "scratch" 
 
-5. Make sure you export the spreadsheet as CSV in Excel!  See 
+5. Make sure you export the spreadsheet as CSV in Excel!  See example files in "example_csv"
 
 <b>If you're starting with "Accession IDs":</b>
 * Make sure column name is "accession_number"
