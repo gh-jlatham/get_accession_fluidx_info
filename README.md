@@ -4,11 +4,13 @@ Get Fluid-X plate/tube/well from Accession ID (or vice versa starting with Fluid
 Instructions:
 
 1. Clone this repo LOCALLY (if you've already done this, skip to step 2)
+set "gh_user=" to your Guardant GitHub username
 In terminal paste:
 ```bash
 mkdir -p ~/src
 cd ~/src
-git clone git@github.com:lspurkaGH/get_accession_fluidx_info.git
+gh_user=lspurkaGH
+git clone git@github.com:${gh_user}/get_accession_fluidx_info.git
 ```
 
 2. Install python3 (If you've already done this, skip to step 3)
