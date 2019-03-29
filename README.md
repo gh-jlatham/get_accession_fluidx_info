@@ -9,8 +9,7 @@ In terminal paste:
 ```bash
 mkdir -p ~/src
 cd ~/src
-gh_user=lspurkaGH
-git clone git@github.com:${gh_user}/get_accession_fluidx_info.git
+git clone https://github.com/lspurkaGH/get_accession_fluidx_info.git
 ```
 
 2. Install python3 (If you've already done this, skip to step 3)
